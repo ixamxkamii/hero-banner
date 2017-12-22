@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -38,14 +37,17 @@ h2 {
   padding: 0;
   line-height: 1.4;
   margin: 0 1.5rem 1rem;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
 .title {
   background-color: rgba(0, 0, 0, .5);
+  font-weight: bold;
 }
 
 p {
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 2rem;
   margin: 0 1.5rem;
