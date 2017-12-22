@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans",sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  max-height: 500px;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  bottom: 1.5em;
+  width: 100%;
+  max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content h2, .content p {
+  margin: 0;
+}
+
+h2 {
+    background-color: grey;
+    color: white;
+    font-size: 4rem;
+}
+
+p {
+  font-style: italic;
+  font-size: 2rem;
+}
