@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -13,9 +13,9 @@ body {
 
 .banner {
   position: relative;
-  overflow: hidden;
   text-align: left;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .img-flex {
@@ -32,17 +32,20 @@ body {
   transform: translateX(-50%);
 }
 
-.content h2, .content p {
-  margin: 0;
+h2 {
+  color: white;
+  font-size: 4rem;
+  padding: 0;
+  line-height: 1.4;
+  margin: 0 1.5rem 1rem;
 }
 
-h2 {
-    background-color: grey;
-    color: white;
-    font-size: 4rem;
+.title {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
   font-style: italic;
   font-size: 2rem;
+  margin: 0 1.5rem;
 }
